@@ -8,6 +8,7 @@ stdenv.mkDerivation rec {
   buildInputs = with pkgs; [
     arachne-pnr
     icestorm
+    nextpnr
     yosys
   ] ++ utils;
 
